@@ -7,8 +7,8 @@ from Python_ARQ import ARQ
 
 SESSION_NAME = "spr"
 DB_NAME = "db.sqlite3"
-API_ID = 6
-API_HASH = "eb06d4abfb49dc3eeb1aeb98ae0f581e"
+API_ID = 27604779
+API_HASH = "8a04200c9d52999ae7ebc26a462dbb48"
 ARQ_API_URL = "https://arq.hamker.dev"
 
 if exists("config.py"):
