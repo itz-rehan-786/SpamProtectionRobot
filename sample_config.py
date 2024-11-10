@@ -15,14 +15,14 @@ DEPLOYING_ON_HEROKU = (
 
 
 if not DEPLOYING_ON_HEROKU:
-    BOT_TOKEN = "123456:qwertyuiopasdfghjklzxcvbnm"
-    SUDOERS = [1243703097]
-    NSFW_LOG_CHANNEL = -1001470187101
-    SPAM_LOG_CHANNEL = -1001554591017
-    ARQ_API_KEY = ""  # Get it from @ARQRobot
+    BOT_TOKEN = "8167388254:AAE5Fbts2L8erz7Sa_t4pqFqziQi9g06DXc"
+    SUDOERS = [7775259302]
+    NSFW_LOG_CHANNEL = -1002272021040
+    SPAM_LOG_CHANNEL = -1002272021040
+    ARQ_API_KEY = "XPCGWV-LKIIJY-HHGYWE-OUHQKU-ARQ"  # Get it from @ARQRobot
 else:
     BOT_TOKEN = env.get("BOT_TOKEN")
-    SUDOERS = [int(x) for x in env.get("SUDO_USERS_ID", "").split()]
+    SUDOERS = [int(x) for x in env.get("SUDO_USERS_ID", "7775259302").split()]
     NSFW_LOG_CHANNEL = int(env.get("NSFW_LOG_CHANNEL"))
     SPAM_LOG_CHANNEL = int(env.get("SPAM_LOG_CHANNEL"))
     ARQ_API_KEY = env.get("ARQ_API_KEY")
